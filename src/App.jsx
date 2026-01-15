@@ -1,6 +1,6 @@
 //use browserrouter for routing
 import { BrowserRouter } from 'react-router-dom'
-
+import { AuthProvider } from './context/AuthContext'
 //import * as Layout from './layout'
 import Header from './layout/Header'
 import Navbar from './layout/Navbar'
